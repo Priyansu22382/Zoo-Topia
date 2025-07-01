@@ -1,23 +1,53 @@
-# Zoo-Topia
-A Java-based zoo management system enabling efficient administration of animals, attractions, visitors, memberships, discounts, and feedback, offering a seamless and interactive experience for both zoo staff and guests.
+# 🐾 Zoo-Topia – Java Console Zoo Management System
 
-** Zoo.java ** is a Java console application for a Zoo Management System. It uses OOP principles to manage admins, visitors, attractions, animals, discounts, feedback, and special deals. The app allows:
+**Zoo-Topia** is a terminal-based **Zoo Management System** built using core **Java** and **Object-Oriented Programming (OOP)** principles. It provides an interactive and seamless experience for both **administrators** and **visitors**, enabling efficient management of zoo operations such as animal tracking, attraction management, memberships, discounts, statistics, and visitor feedback — all without a database.
 
-Admins to register/login and manage attractions, animals, events, discounts, deals, view stats, and feedback.
+📁 **GitHub Repository**: [Priyanshu22382/Zoo-Topia](https://github.com/Priyansu22382/Zoo-Topia)
 
-Visitors to register/login, explore the zoo, buy memberships/tickets, apply discounts, visit animals/attractions, and leave feedback.
+---
 
-Special deals and discounts are handled, and statistics like total visitors and revenue are tracked.
+## 🧠 Key Features
 
-** Key features: **
+### 🛠️ Admin Capabilities
+- Add, update, delete, and view:
+  - 🎢 Attractions
+  - 🐅 Animals
+  - 💰 Discounts and special deals
+- View:
+  - 📊 Visitor statistics
+  - 💬 Feedback left by visitors
 
-Admin can add, modify, remove, and view attractions, animals, discounts, and deals.
+### 🧍 Visitor Capabilities
+- Register and login as a visitor
+- Explore:
+  - 🐘 Animals and 🏞️ Attractions
+- Purchase:
+  - 🎟️ Tickets and 🎫 Memberships
+  - Apply available 💸 discounts
+- Leave feedback on their visit
 
-Visitors can register, login, buy memberships/tickets (with discounts), explore animals/attractions, and leave feedback.
+### 💡 Additional Highlights
+- Fully **menu-driven** terminal UI
+- Uses **Java OOP** features: inheritance, polymorphism, encapsulation
+- No external database – all data stored and manipulated using **arrays**
+- Tracks:
+  - 📈 Total zoo visitors
+  - 💵 Revenue generated
+  - 👥 Membership holders
 
-All data is stored in arrays (no database).
+---
 
-The app is fully menu-driven and runs in the terminal.
 
-** Usage: **
-Compile and run the Zoo class. Follow the on-screen menu to use admin or visitor features.
+---
+
+## 🚀 How to Run
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Priyansu22382/Zoo-Topia.git
+cd Zoo-Topia
+javac Zoo.java
+java Zoo
+
+
